@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import './CalculatePlan.css'
 
 const CalculatePlan =()=>{
-
     const [text, setText] = useState('')
     const isNaNColor = useRef()
     let totalPrice = parseInt(text)*0.5
