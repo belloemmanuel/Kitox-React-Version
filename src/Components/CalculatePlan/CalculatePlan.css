@@ -293,6 +293,10 @@ input:focus {
 .footer-list-item p{
     margin-bottom: 5px;
 }
+
+.message{
+    display: flex;
+}
 /*-----responsive------*/
 
 @media screen and (max-width: 600px){
